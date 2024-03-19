@@ -1,0 +1,9 @@
+.title-view {
+    color: aliceblue;
+    font-weight: bold; /* Deixa o texto em negrito */
+    text-shadow: 2px 2px 4px rgba(253, 252, 252, 0.151); /* Adiciona sombra ao texto */
+}
+
+.sub-title {
+    color: aliceblue ;
+}

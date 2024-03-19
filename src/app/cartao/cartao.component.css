@@ -1,0 +1,59 @@
+.card {
+    /* Definir altura mínima para garantir espaço para o conteúdo */
+    min-height: 200px; /* Ajuste conforme necessário */
+
+    /* Definir largura para ocupar o espaço disponível */
+    width: 900% ;
+
+    /* Adicionar espaçamento interno para o conteúdo */
+    padding: 20px;
+
+    /* Permitir que o conteúdo se expanda */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* Adicionar rolagem quando o conteúdo exceder a altura */
+    overflow-y: auto;
+
+    /* Adicionar margem para espaçamento */
+    margin: 40px;
+    margin-top: -2px;
+    margin-left: 200px ;
+
+    /* Centralizar horizontalmente */
+    margin: 0 auto;
+
+    /* Adicionar borda para estilo */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+    /* Adicionar sombra nas bordas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+
+    /* Ajuste de tamanho responsivo */
+    max-width: 100% ; /* Ocupar largura máxima possível */
+}
+
+/* Estilos adicionais para o título e subtítulo */
+.card-title {
+    font-size: 1.2rem; /* Ajuste conforme necessário */
+    margin-bottom: 20px; /* Adicionar espaçamento inferior */
+}
+
+.card-subtitle {
+    font-size: 1rem; /* Ajuste conforme necessário */
+    margin-bottom: 20px; /* Adicionar espaçamento inferior */
+}
+
+/* Estilos adicionais para o texto do cartão */
+.card-text {
+    margin-bottom: 20px; /* Adicionar espaçamento inferior */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .card-body {
+        min-height: 150px; /* Reduzir altura para dispositivos menores */
+    }
+}
